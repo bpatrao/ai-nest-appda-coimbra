@@ -1,0 +1,374 @@
+export type Lang = "pt" | "en";
+
+export const dict = {
+  pt: {
+    "nav.home": "Início",
+    "nav.about": "Sobre",
+    "nav.services": "Serviços",
+    "nav.projects": "Projetos",
+    "nav.events": "Eventos",
+    "nav.news": "Notícias",
+    "nav.support": "Apoiar",
+    "nav.contact": "Contactos",
+    "nav.menu": "Menu",
+    "nav.close": "Fechar",
+
+    "a11y.skip": "Saltar para o conteúdo principal",
+    "a11y.button": "Acessibilidade",
+    "a11y.title": "Opções de acessibilidade",
+    "a11y.description": "Ajuste a apresentação ao seu conforto.",
+    "a11y.motion": "Reduzir movimento",
+    "a11y.contrast": "Alto contraste",
+    "a11y.text": "Tamanho de letra",
+    "a11y.text.sm": "Normal",
+    "a11y.text.md": "Médio",
+    "a11y.text.lg": "Grande",
+    "a11y.simple": "Texto simples",
+    "a11y.simple.help": "Esconde imagens decorativas e aumenta espaço entre linhas.",
+    "a11y.reset": "Repor predefinições",
+
+    "mode.label": "Modo de cor",
+    "mode.vivid": "Vívido",
+    "mode.calm": "Calmo",
+
+    "lang.label": "Idioma",
+    "lang.pt": "PT",
+    "lang.en": "EN",
+
+    "home.hero.eyebrow": "APPDA Coimbra",
+    "home.hero.title": "Apoiar pessoas com autismo e as suas famílias",
+    "home.hero.lede":
+      "Somos uma associação sem fins lucrativos sediada em Coimbra. Apoiamos pessoas autistas e as suas famílias ao longo da vida, com serviços terapêuticos, ocupacionais e de inclusão social.",
+    "home.hero.cta.support": "Quero apoiar",
+    "home.hero.cta.services": "Ver serviços",
+
+    "home.highlights.title": "Como ajudamos",
+    "home.highlights.lede":
+      "Oferecemos serviços terapêuticos, ocupacionais e de inclusão para pessoas com autismo e as suas famílias, ao longo de toda a vida.",
+    "home.highlights.caci.title": "CACI",
+    "home.highlights.caci.desc": "Centro de Atividades e Capacitação para a Inclusão.",
+    "home.highlights.catl.title": "CATL",
+    "home.highlights.catl.desc": "Centro de Atividades de Tempos Livres para crianças e jovens.",
+    "home.highlights.rai.title": "RAI",
+    "home.highlights.rai.desc": "Resposta de Apoio à Inclusão — terapias e acompanhamento individualizado.",
+    "home.highlights.cfip.title": "CFIP",
+    "home.highlights.cfip.desc": "Centro de Formação e Inserção Profissional.",
+    "home.highlights.cta": "Ver todos os serviços",
+
+    "home.cta.title": "Faça parte da mudança",
+    "home.cta.desc":
+      "Pode contribuir através de patrocínio, donativo ou consignando 0,5% do seu IRS à APPDA Coimbra (NIPC 505 772 302).",
+    "home.cta.button": "Saber como apoiar",
+
+    "about.title": "Sobre a APPDA Coimbra",
+    "about.lede":
+      "Fundada em 2001, a Associação Portuguesa para as Perturbações do Desenvolvimento e Autismo de Coimbra é uma IPSS que apoia pessoas autistas e as suas famílias na região centro.",
+    "about.mission.title": "Missão",
+    "about.mission.body":
+      "Promover a qualidade de vida, autonomia e inclusão de pessoas autistas, ao longo de toda a vida.",
+    "about.vision.title": "Visão",
+    "about.vision.body":
+      "Uma sociedade onde cada pessoa autista é compreendida, respeitada e tem o seu lugar.",
+    "about.values.title": "Valores",
+    "about.values.body":
+      "Respeito, rigor, empatia, inclusão e responsabilidade social.",
+    "about.history.title": "História",
+    "about.history.body":
+      "Nascemos da iniciativa de famílias e profissionais que sentiram a necessidade de respostas especializadas no autismo na região de Coimbra. Mais de duas décadas depois, mantemos esse compromisso — com mais serviços, mais pessoas, e a mesma proximidade.",
+
+    "services.title": "Serviços",
+    "services.lede":
+      "Respostas pensadas para diferentes idades e necessidades. Para informações ou candidaturas, contacte-nos.",
+    "services.caci.title": "CACI — Centro de Atividades e Capacitação para a Inclusão",
+    "services.caci.body":
+      "Resposta social para adultos autistas que promove a capacitação, a autonomia e a participação na comunidade através de atividades estruturadas.",
+    "services.catl.title": "CATL — Centro de Atividades de Tempos Livres",
+    "services.catl.body":
+      "Atividades lúdicas, ocupacionais e socioeducativas para crianças e jovens em tempo extra-escolar e em férias.",
+    "services.rai.title": "RAI — Resposta de Apoio à Inclusão",
+    "services.rai.body":
+      "Acompanhamento terapêutico individualizado: terapia da fala, psicologia, terapia ocupacional e intervenção comportamental.",
+    "services.cfip.title": "CFIP — Centro de Formação e Inserção Profissional",
+    "services.cfip.body":
+      "Formação profissional e apoio à integração no mercado de trabalho, em articulação com empregadores parceiros.",
+
+    "projects.title": "Projetos",
+    "projects.lede":
+      "Iniciativas que estendem a missão da APPDA à comunidade e que geram receitas próprias para sustentar os serviços.",
+    "projects.azul.title": "Azul Mirtilo",
+    "projects.azul.body":
+      "Marca própria de produtos artesanais produzidos pelas pessoas que apoiamos. Cada compra é apoio direto ao trabalho da associação.",
+    "projects.quiosque.title": "Quiosque CoMsigo",
+    "projects.quiosque.body":
+      "Quiosque de proximidade gerido em contexto de capacitação profissional — um espaço de inclusão real, ao serviço da comunidade.",
+    "projects.bluewash.title": "BlueWash",
+    "projects.bluewash.body":
+      "Serviço de lavagem automóvel ecológico, operado por jovens e adultos autistas em formação. Inclusão pelo trabalho.",
+    "projects.convida.title": "ConVida",
+    "projects.convida.body":
+      "Programa de envelhecimento ativo e convívio intergeracional para utentes adultos e seniores.",
+
+    "events.title": "Eventos",
+    "events.lede": "Próximos eventos e momentos marcantes da associação.",
+    "events.upcoming": "Próximos",
+    "events.archive": "Arquivo",
+    "events.jornadas.title": "V Jornadas da APPDA Coimbra",
+    "events.jornadas.when": "Data a confirmar — 2026",
+    "events.jornadas.where": "Coimbra",
+    "events.jornadas.body":
+      "Encontro científico e comunitário sobre autismo, com profissionais, famílias e pessoas autistas.",
+    "events.ag.title": "Assembleia Geral",
+    "events.ag.when": "Anual — convocatória enviada a sócios",
+    "events.ag.where": "Sede da APPDA Coimbra",
+    "events.ag.body":
+      "Aprovação de contas, plano de atividades e eleição dos órgãos sociais quando aplicável.",
+
+    "news.title": "Notícias",
+    "news.lede":
+      "Últimas publicações nas nossas redes sociais. Para acompanhar tudo, siga-nos no Facebook e Instagram.",
+    "news.facebook": "Facebook",
+    "news.instagram": "Instagram",
+
+    "support.title": "Apoiar a APPDA Coimbra",
+    "support.lede":
+      "O seu apoio sustenta os serviços que prestamos a centenas de pessoas autistas e suas famílias na região de Coimbra.",
+    "support.tiers.title": "Patrocínio empresarial",
+    "support.tiers.friend.name": "Amigo",
+    "support.tiers.friend.amount": "até 500 €/ano",
+    "support.tiers.friend.benefits":
+      "Agradecimento público no site • Certificado de patrocínio • Newsletter trimestral.",
+    "support.tiers.partner.name": "Parceiro",
+    "support.tiers.partner.amount": "500 € – 2 500 €/ano",
+    "support.tiers.partner.benefits":
+      "Tudo do Amigo • Logótipo no site e em materiais selecionados • Participação em evento anual.",
+    "support.tiers.patron.name": "Mecenas",
+    "support.tiers.patron.amount": "a partir de 2 500 €/ano",
+    "support.tiers.patron.benefits":
+      "Tudo do Parceiro • Destaque em campanhas • Visita guiada à associação • Comunicação personalizada.",
+    "support.iban.title": "Donativo por transferência",
+    "support.iban.label": "IBAN",
+    "support.iban.copy": "Copiar IBAN",
+    "support.iban.copied": "IBAN copiado",
+    "support.irs.title": "0,5% do seu IRS",
+    "support.irs.body":
+      "Pode consignar 0,5% do seu IRS à APPDA Coimbra sem qualquer custo para si. Indique o nosso NIPC na declaração:",
+    "support.irs.nipc": "NIPC 505 772 302",
+    "support.form.title": "Fale connosco sobre apoio",
+    "support.form.name": "Nome",
+    "support.form.email": "Email",
+    "support.form.org": "Organização (opcional)",
+    "support.form.tier": "Escalão de interesse",
+    "support.form.tier.placeholder": "Selecione um escalão",
+    "support.form.message": "Mensagem",
+    "support.form.rgpd": "Autorizo o tratamento dos meus dados para resposta a este contacto.",
+    "support.form.submit": "Enviar",
+    "support.form.sending": "A enviar…",
+    "support.form.success": "Obrigado pelo seu contacto. Responderemos brevemente.",
+    "support.form.error": "Não foi possível enviar. Tente novamente ou contacte-nos por email.",
+
+    "contact.title": "Contactos",
+    "contact.lede": "Estamos disponíveis para o ajudar.",
+    "contact.address.title": "Morada",
+    "contact.address.body": "APPDA Coimbra\nQuinta da Conraria\n3040-714 Castelo Viegas, Coimbra",
+    "contact.phone.title": "Telefone",
+    "contact.email.title": "Email",
+    "contact.hours.title": "Horário",
+    "contact.hours.body": "Segunda a sexta · 9h00 – 17h30",
+    "contact.form.title": "Envie-nos uma mensagem",
+    "contact.form.subject": "Assunto",
+
+    "footer.tagline": "Associação Portuguesa para as Perturbações do Desenvolvimento e Autismo de Coimbra",
+    "footer.follow": "Siga-nos",
+    "footer.rights": "Todos os direitos reservados.",
+    "footer.nipc": "NIPC 505 772 302",
+
+    "form.required": "Campo obrigatório",
+    "form.email.invalid": "Email inválido",
+  },
+  en: {
+    "nav.home": "Home",
+    "nav.about": "About",
+    "nav.services": "Services",
+    "nav.projects": "Projects",
+    "nav.events": "Events",
+    "nav.news": "News",
+    "nav.support": "Support",
+    "nav.contact": "Contact",
+    "nav.menu": "Menu",
+    "nav.close": "Close",
+
+    "a11y.skip": "Skip to main content",
+    "a11y.button": "Accessibility",
+    "a11y.title": "Accessibility options",
+    "a11y.description": "Adjust the display to your comfort.",
+    "a11y.motion": "Reduce motion",
+    "a11y.contrast": "High contrast",
+    "a11y.text": "Text size",
+    "a11y.text.sm": "Normal",
+    "a11y.text.md": "Medium",
+    "a11y.text.lg": "Large",
+    "a11y.simple": "Simple text",
+    "a11y.simple.help": "Hides decorative images and increases line spacing.",
+    "a11y.reset": "Reset to defaults",
+
+    "mode.label": "Color mode",
+    "mode.vivid": "Vivid",
+    "mode.calm": "Calm",
+
+    "lang.label": "Language",
+    "lang.pt": "PT",
+    "lang.en": "EN",
+
+    "home.hero.eyebrow": "APPDA Coimbra",
+    "home.hero.title": "Supporting autistic people and their families",
+    "home.hero.lede":
+      "We are a non-profit association based in Coimbra. We support autistic people and their families throughout life, with therapeutic, occupational and inclusion services.",
+    "home.hero.cta.support": "Support us",
+    "home.hero.cta.services": "See services",
+
+    "home.highlights.title": "How we help",
+    "home.highlights.lede":
+      "We offer therapeutic, occupational and inclusion services for autistic people and their families throughout life.",
+    "home.highlights.caci.title": "CACI",
+    "home.highlights.caci.desc": "Activities and Capacity-Building Centre for Inclusion.",
+    "home.highlights.catl.title": "CATL",
+    "home.highlights.catl.desc": "Leisure activities centre for children and youth.",
+    "home.highlights.rai.title": "RAI",
+    "home.highlights.rai.desc": "Inclusion support — individual therapies and follow-up.",
+    "home.highlights.cfip.title": "CFIP",
+    "home.highlights.cfip.desc": "Vocational training and job placement.",
+    "home.highlights.cta": "See all services",
+
+    "home.cta.title": "Be part of the change",
+    "home.cta.desc":
+      "You can contribute through sponsorship, donation or by assigning 0.5% of your Portuguese income tax (IRS) to APPDA Coimbra (NIPC 505 772 302).",
+    "home.cta.button": "How to support",
+
+    "about.title": "About APPDA Coimbra",
+    "about.lede":
+      "Founded in 2001, APPDA Coimbra is a non-profit social-solidarity institution that supports autistic people and their families in the central region of Portugal.",
+    "about.mission.title": "Mission",
+    "about.mission.body":
+      "To promote quality of life, autonomy and inclusion of autistic people throughout life.",
+    "about.vision.title": "Vision",
+    "about.vision.body":
+      "A society where every autistic person is understood, respected and belongs.",
+    "about.values.title": "Values",
+    "about.values.body":
+      "Respect, rigour, empathy, inclusion and social responsibility.",
+    "about.history.title": "History",
+    "about.history.body":
+      "We were born from families and professionals who recognised the need for specialised autism support in Coimbra. More than two decades later, the commitment remains — with more services, more people, and the same closeness.",
+
+    "services.title": "Services",
+    "services.lede":
+      "Responses designed for different ages and needs. For information or applications, please contact us.",
+    "services.caci.title": "CACI — Activities and Capacity-Building Centre for Inclusion",
+    "services.caci.body":
+      "A social response for autistic adults that promotes capability, autonomy and community participation through structured activities.",
+    "services.catl.title": "CATL — Leisure Activities Centre",
+    "services.catl.body":
+      "Recreational, occupational and social-educational activities for children and youth, after school and during holidays.",
+    "services.rai.title": "RAI — Inclusion Support Response",
+    "services.rai.body":
+      "Individual therapeutic follow-up: speech therapy, psychology, occupational therapy and behavioural intervention.",
+    "services.cfip.title": "CFIP — Vocational Training and Job Placement Centre",
+    "services.cfip.body":
+      "Vocational training and labour-market integration in partnership with employers.",
+
+    "projects.title": "Projects",
+    "projects.lede":
+      "Initiatives that extend our mission into the community and generate own revenue to sustain our services.",
+    "projects.azul.title": "Azul Mirtilo",
+    "projects.azul.body":
+      "Our own brand of artisanal products made by the people we support. Every purchase directly supports our work.",
+    "projects.quiosque.title": "CoMsigo Kiosk",
+    "projects.quiosque.body":
+      "A neighbourhood kiosk run as a vocational-training setting — real inclusion serving the community.",
+    "projects.bluewash.title": "BlueWash",
+    "projects.bluewash.body":
+      "An eco-friendly car-washing service run by autistic youth and adults in training. Inclusion through work.",
+    "projects.convida.title": "ConVida",
+    "projects.convida.body":
+      "An active-ageing and intergenerational programme for adult and senior users.",
+
+    "events.title": "Events",
+    "events.lede": "Upcoming events and key moments of our association.",
+    "events.upcoming": "Upcoming",
+    "events.archive": "Archive",
+    "events.jornadas.title": "5th APPDA Coimbra Conference",
+    "events.jornadas.when": "Date TBC — 2026",
+    "events.jornadas.where": "Coimbra",
+    "events.jornadas.body":
+      "A scientific and community gathering on autism with professionals, families and autistic people.",
+    "events.ag.title": "General Assembly",
+    "events.ag.when": "Annual — notice sent to members",
+    "events.ag.where": "APPDA Coimbra headquarters",
+    "events.ag.body":
+      "Approval of accounts and activity plan, and election of governing bodies when applicable.",
+
+    "news.title": "News",
+    "news.lede":
+      "Latest posts from our social networks. To follow everything, please join us on Facebook and Instagram.",
+    "news.facebook": "Facebook",
+    "news.instagram": "Instagram",
+
+    "support.title": "Support APPDA Coimbra",
+    "support.lede":
+      "Your support sustains the services we provide to hundreds of autistic people and their families in the Coimbra region.",
+    "support.tiers.title": "Corporate sponsorship",
+    "support.tiers.friend.name": "Friend",
+    "support.tiers.friend.amount": "up to €500/year",
+    "support.tiers.friend.benefits":
+      "Public acknowledgement on our website • Sponsorship certificate • Quarterly newsletter.",
+    "support.tiers.partner.name": "Partner",
+    "support.tiers.partner.amount": "€500 – €2,500/year",
+    "support.tiers.partner.benefits":
+      "Everything in Friend • Logo on site and selected materials • Annual event participation.",
+    "support.tiers.patron.name": "Patron",
+    "support.tiers.patron.amount": "from €2,500/year",
+    "support.tiers.patron.benefits":
+      "Everything in Partner • Featured in campaigns • Guided visit • Personalised communications.",
+    "support.iban.title": "Donate by bank transfer",
+    "support.iban.label": "IBAN",
+    "support.iban.copy": "Copy IBAN",
+    "support.iban.copied": "IBAN copied",
+    "support.irs.title": "0.5% of your IRS",
+    "support.irs.body":
+      "You can assign 0.5% of your Portuguese income tax to APPDA Coimbra at no cost to you. Use our tax ID on your return:",
+    "support.irs.nipc": "Tax ID 505 772 302",
+    "support.form.title": "Talk to us about support",
+    "support.form.name": "Name",
+    "support.form.email": "Email",
+    "support.form.org": "Organisation (optional)",
+    "support.form.tier": "Tier of interest",
+    "support.form.tier.placeholder": "Select a tier",
+    "support.form.message": "Message",
+    "support.form.rgpd": "I agree to the processing of my data to respond to this contact.",
+    "support.form.submit": "Send",
+    "support.form.sending": "Sending…",
+    "support.form.success": "Thank you for getting in touch. We'll reply shortly.",
+    "support.form.error": "Could not send. Please try again or email us directly.",
+
+    "contact.title": "Contact",
+    "contact.lede": "We're here to help.",
+    "contact.address.title": "Address",
+    "contact.address.body": "APPDA Coimbra\nQuinta da Conraria\n3040-714 Castelo Viegas, Coimbra",
+    "contact.phone.title": "Phone",
+    "contact.email.title": "Email",
+    "contact.hours.title": "Opening hours",
+    "contact.hours.body": "Monday to Friday · 9:00 – 17:30",
+    "contact.form.title": "Send us a message",
+    "contact.form.subject": "Subject",
+
+    "footer.tagline": "Portuguese Association for Developmental Disorders and Autism — Coimbra",
+    "footer.follow": "Follow us",
+    "footer.rights": "All rights reserved.",
+    "footer.nipc": "Tax ID 505 772 302",
+
+    "form.required": "Required field",
+    "form.email.invalid": "Invalid email",
+  },
+} as const;
+
+export type DictKey = keyof (typeof dict)["pt"];
